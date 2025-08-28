@@ -1,5 +1,9 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+.my-card{
+    background-color: white;
+    width: 600px;
+    height: 800px;
+    margin: 0 auto;
+    border-radius: 5px;
 }
