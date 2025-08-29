@@ -2,8 +2,11 @@
 
 .my-card{
     background-color: white;
-    width: 600px;
-    height: 800px;
+    width: 500px;
+    height: 700px;
     margin: 0 auto;
-    border-radius: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
