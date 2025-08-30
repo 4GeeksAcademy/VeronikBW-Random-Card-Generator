@@ -47,16 +47,3 @@ if (iconCard == "♦" || iconCard == "♥") {
     divTop.style.color = "red"
     divBottom.style.color = "red"
 }
-
-let botoncito = document.getElementById("refresh-button");
-botoncito.style.marginBottom = "50px"
-botoncito.addEventListener("click", () => {
-    let iconCard = inconsCard[Math.floor(Math.random() * inconsCard.length)]
-    divTop.innerHTML = iconCard
-    divMiddle.innerHTML = numbersCard[Math.floor(Math.random() * numbersCard.length)];
-    divBottom.innerHTML = iconCard;
-    if (iconCard == "♦" || iconCard == "♥") {
-        divTop.style.color = "red"
-        divBottom.style.color = "red"
-    }
-})
